@@ -216,29 +216,29 @@ Usecase:
 
 */
 
-#include <iostream>
-#include <unordered_map>
-using namespace std;
+// #include <iostream>
+// #include <unordered_map>
+// using namespace std;
 
-int main(){
-    unordered_map <string, int> um;
-    um["saty"] = 20;
-    um["ram"] = 30;
-    um["ram"] = 45;
-    // um.insert({"srish",15});
-    for (auto &&i : um)
-    {
-        cout << i.first << " " << i.second << "\n";
-    }
-    cout << um["saty"] << "\n";
+// int main(){
+//     unordered_map <string, int> um;
+//     um["saty"] = 20;
+//     um["ram"] = 30;
+//     um["ram"] = 45;
+//     // um.insert({"srish",15});
+//     for (auto &&i : um)
+//     {
+//         cout << i.first << " " << i.second << "\n";
+//     }
+//     cout << um["saty"] << "\n";
 
-    cout << "\n";
-    cout << "\n\n";
+//     cout << "\n";
+//     cout << "\n\n";
     // Find key
-    if (um.find("sty") == um.end())
-        cout << "Not Found" << "\n";
-    else 
-        cout << "Found" << "\n";
+    // if (um.find("sty") == um.end())
+    //     cout << "Not Found" << "\n";
+    // else 
+    //     cout << "Found" << "\n";
     
     // Search for values of key
 
@@ -251,33 +251,33 @@ int main(){
     //     cout << "Not found";
     // }
     // or
-    auto it = um.find("saty");
-    if (it != um.end())
-    {
-        cout << it->second;
-    } 
+//     auto it = um.find("saty");
+//     if (it != um.end())
+//     {
+//         cout << it->second;
+//     } 
 
-    // Count function
+//     // Count function
 
-    if (um.count("saty") > 0)
-    {
-        cout << "Found";
-    }
-    else
-    {
-        cout << "Not found" << "\n";
-    }
+//     if (um.count("saty") > 0)
+//     {
+//         cout << "Found";
+//     }
+//     else
+//     {
+//         cout << "Not found" << "\n";
+//     }
 
-    // Size function
+//     // Size function
 
-    cout << "\n" << um.size() << "\n";
+//     cout << "\n" << um.size() << "\n";
 
-    // Erase Function
-    um.erase("saty");
-    um.erase(um.end());
-    int i{0};
+//     // Erase Function
+//     um.erase("saty");
+//     um.erase(um.end());
+//     int i{0};
 
-}
+// }
 
 
 // #include <iostream>
