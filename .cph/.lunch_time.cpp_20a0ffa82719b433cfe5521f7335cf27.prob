@@ -1,0 +1,1 @@
+{"name":"Local: lunch_time","url":"c:\\Revision dsa\\lunch_time.cpp","tests":[{"id":1650123983957,"input":"2\n3\n1 3 4\n5\n2 3 4 5 6","output":"2\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Revision dsa\\lunch_time.cpp","group":"local","local":true}
